@@ -8,7 +8,7 @@
 	--text: #e7e7e0;
 	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 	--clouds: #ecf0f1;
-    --plava: #2980b9;
+    	--plava: #2980b9;
 	--gold: #ffe600;
 	--diamond: #ea00ff;
 }
@@ -63,13 +63,14 @@ body {
 }
 
 .header a {
-	color: var(--text);
-	text-decoration: none;
+	text-decoration:none;
+	color:white;
 	justify-content: center;
 	align-items: center;
 }
 
 .header a:hover{
+	text-decoration:none;
 	text-shadow: 0 0 15px #556fff;
 	cursor: pointer;
 }
