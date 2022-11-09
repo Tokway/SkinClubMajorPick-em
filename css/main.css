@@ -63,6 +63,8 @@ body {
 }
 
 .header a {
+	color: var(--text);
+	text-decoration: none;
 	justify-content: center;
 	align-items: center;
 }
